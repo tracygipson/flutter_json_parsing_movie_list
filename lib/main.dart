@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+//import 'package:http/http.dart' show Client;
 
 void main() => runApp(MyApp());
 
@@ -41,7 +42,9 @@ class MovieListWidget extends StatelessWidget {
   }
 }
 
+// TODO uncomment API call in the function here
 Future<String> getMovies() async {
+  //Client client = Client();
   var response = "Follow the codelab to get something interesting here";
   //final response = await client.get(_baseUrl);
   return response;
