@@ -43,6 +43,6 @@ class MovieListWidget extends StatelessWidget {
 
 Future<String> getMovies() async {
   var response = "Follow the codelab to get something interesting here";
-//final response = await client.get(_baseUrl);
+  //final response = await client.get(_baseUrl);
   return response;
 }
